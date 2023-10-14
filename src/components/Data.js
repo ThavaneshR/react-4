@@ -35,7 +35,7 @@ function Data(){
 }
      return(
         <div>
-            <center><h1>Dummy data</h1></center>
+            <center><h1>Dummy data</h1>
             {console.log(record)}
             <table border={0} cellSpacing={3} style={{borderBlock:'1px solid white',borderInline:'1px solid white',margin:20}}>
                 <tr>
@@ -51,6 +51,7 @@ function Data(){
                     <th style={{borderBottom:'1px solid'}}>University</th></tr>
            {List()}
            </table>
+           </center>
         </div>
      )
 }
